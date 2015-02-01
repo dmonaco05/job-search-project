@@ -1,0 +1,24 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1438" measuredH="626" mockupW="1433" mockupH="624">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="5" y="2" w="1299" h="624" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>Job%20Site%0Ahttp%3A//www.jobsite.com/sign_up</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::LinkBar" x="1120" y="81" w="-1" h="-1" measuredW="169" measuredH="19" zOrder="1" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>Home%2C%20Company%2C%20Sign%20In</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::StickyNote" x="1304" y="2" w="134" h="203" measuredW="109" measuredH="123" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>job%20seeker%20sign%20up%20page</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::TextArea" x="553" y="254" w="-1" h="-1" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>optional%20resume%20parser%2C%20plus%20input%20fields%20for%20all%20the%20info%20we%20want%20to%20collect%20which%20we%20need%20to%20figure%20out%0A%20%0A-obv%20name%2C%20education%2C%20work%20exp%2C%20skills%2C%20projects%2C%20about%20me</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
