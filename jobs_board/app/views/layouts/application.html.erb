@@ -8,6 +8,9 @@
 </head>
 <body>
   <div class="container-fluid">
+    <% Category.all.each do |category| %>
+      <%= link_to category.name, jobs_path(category: category.name) %>
+    <% end %>
     <%= yield %>
   </div>
 </body>
