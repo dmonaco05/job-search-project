@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150218032507) do
+ActiveRecord::Schema.define(version: 20150309231907) do
 
   create_table "categories", force: :cascade do |t|
     t.string   "name"
@@ -24,9 +24,23 @@ ActiveRecord::Schema.define(version: 20150218032507) do
     t.text     "description"
     t.string   "company"
     t.string   "url"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
     t.integer  "category_id"
+    t.string   "city"
+    t.string   "state"
+    t.integer  "min_salary"
+    t.integer  "max_salary"
+    t.string   "tech"
+    t.string   "company_size"
+    t.string   "company_type"
+    t.string   "benefits"
+    t.string   "perks"
+    t.boolean  "remote"
+    t.boolean  "relocation"
+    t.boolean  "public_transit"
+    t.date     "expiration"
+    t.boolean  "sponsored"
   end
 
 end
